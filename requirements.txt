@@ -1,0 +1,9 @@
+PyPDF2
+python-dotenv
+langchain-community
+google-generativeai
+openpyxl 
+unstructured[local-inference]
+pytesseract 
+pillow
+streamlit
