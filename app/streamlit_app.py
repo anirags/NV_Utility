@@ -134,7 +134,7 @@ with st.sidebar:
 # Process Invoices
 if st.sidebar.button("🚀 Process Invoices"):
     with st.spinner("Processing all invoices..."):
-        # time.sleep(10)
+        time.sleep(10)
         selected_option = st.session_state.selected_option
         if selected_option == "RWC":
             rwc_run_pipeline_batch_write()
